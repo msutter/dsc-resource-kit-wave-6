@@ -5,3 +5,8 @@ This Repo is a fixed version of the [DSC Resource Kit Wave 6](http://gallery.tec
 The fixes are for compatibility with the [puppet dsc module](https://github.com/msutter/puppet-dsc)
 
 ## Fixes
+
+Resource: xRemoteDesktopAdmin
+- renaming class xRemoteDesktopAdmin to MSFT_xRemoteDesktopAdmin
+
+
