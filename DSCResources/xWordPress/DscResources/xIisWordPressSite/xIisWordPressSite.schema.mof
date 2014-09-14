@@ -1,5 +1,5 @@
 [ClassVersion("1.0.0"), FriendlyName("xIisWordPressSite")]
-class MSFT_xIisWordPressSite : OMI_BaseResource
+class xIisWordPressSite : OMI_BaseResource
 {
   [Key] string DestinationPath;
   [Write] string DownloadUri;
