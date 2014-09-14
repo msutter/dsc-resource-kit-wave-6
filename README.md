@@ -9,4 +9,10 @@ The fixes are for compatibility with the [puppet dsc module](https://github.com/
 Resource: xRemoteDesktopAdmin
 - renaming class xRemoteDesktopAdmin to MSFT_xRemoteDesktopAdmin
 
+Resource: MSFT_xWindowsOptionalFeature
+- Change validateset of ensure from 'enable,disable' to 'present,absent' and adapt the ps code
+
+Resource: MSFT_xWordPressSite
+- Add Absent to valuemap in mof schema
+
 
