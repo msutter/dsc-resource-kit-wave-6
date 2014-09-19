@@ -7,6 +7,9 @@ The fixes are for compatibility with the [puppet dsc module](https://github.com/
 
 ## Fixes
 
+Resource: xRDRemoteApp
+- removing resource MSFT_xRDRemoteApp due to parsing error
+
 Resource: xRemoteDesktopAdmin
 - renaming class xRemoteDesktopAdmin to MSFT_xRemoteDesktopAdmin
 
